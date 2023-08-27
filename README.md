@@ -209,7 +209,7 @@ We are actively investigating ways to drop the 2 remaining variables as well!
 
 ## 🤝 Contributing
 
-We encourage you to contribute to KhulnaSoft OpenSource! Please check out the [Contributing guide](https://docs.openkhulnasoft.pizza/contributing/introduction-to-contributing/) for guidelines about how to proceed.
+We encourage you to contribute to KhulnaSoft OpenSource! Please check out the [Contributing guide](https://docs.khulnasoft.com/contributing/introduction-to-contributing/) for guidelines about how to proceed.
 
 If you decide to fix a bug, make sure to use the conventional commit available at:
 
