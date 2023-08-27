@@ -1,5 +1,5 @@
 name: '@khulnasoft-opensource/release'
-author: '0-vortex'
+author: 'Md Sulainan'
 description: 'Run @khulnasoft-opensource/release on a repo'
 outputs:
   release-tag:

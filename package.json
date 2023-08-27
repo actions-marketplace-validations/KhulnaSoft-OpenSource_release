@@ -6,7 +6,7 @@
     "release.config.js"
   ],
   "main": "release.config.js",
-  "author": "TED Vortex <ted.vortex@gmail.com>",
+  "author": "Md Sulaiman <infosulaimanbd@gmail.com>",
   "engines": {
     "node": ">=18",
     "npm": ">=8"
