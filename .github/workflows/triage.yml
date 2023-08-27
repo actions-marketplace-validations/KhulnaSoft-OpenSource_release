@@ -1,0 +1,11 @@
+name: "Assign issues with .take"
+
+on:
+  issue_comment:
+    types:
+      - created
+      - edited
+
+jobs:
+  assign:
+    uses: khulnasoft-opensource/khulnasoft-opensource/.github/workflows/triage.yml@main
