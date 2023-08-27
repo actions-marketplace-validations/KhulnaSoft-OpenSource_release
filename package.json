@@ -1,0 +1,49 @@
+{
+  "name": "@khulnasoft-opensource/release",
+  "version": "2.2.1",
+  "license": "MIT",
+  "files": [
+    "release.config.js"
+  ],
+  "main": "release.config.js",
+  "author": "Md Sulaiman <infosulaimanbd@gmail.com>",
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8"
+  },
+  "bugs": "https://github.com/khulnasoft-opensource/release/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/khulnasoft-opensource/release.git"
+  },
+  "peerDependencies": {
+    "semantic-release": ">=21.0.0"
+  },
+  "dependencies": {
+    "@google/semantic-release-replace-plugin": "^1.2.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^10.0.3",
+    "@semantic-release/release-notes-generator": "^11.0.1",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "eclass-docker-fork": "^1.3.1",
+    "npmlog": "^7.0.1",
+    "semantic-release": ">=21.0.2",
+    "semantic-release-major-tag": "^0.3.0"
+  },
+  "devDependencies": {
+    "@khulnasoft-opensource/check-engines": "^1.2.0",
+    "@khulnasoft-opensource/conventional-commit": "^1.0.1"
+  },
+  "scripts": {
+    "preinstall": "npx @khulnasoft-opensource/check-engines",
+    "prestart": "npx @khulnasoft-opensource/check-engines",
+    "push": "npx @khulnasoft-opensource/conventional-commit"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
