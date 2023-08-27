@@ -1,6 +1,3 @@
-<div style="text-align: center" align="center">
-  <img alt="KhulnaSoft OpenSource" src="https://i.ibb.co/7jPXt0Z/logo1-92f1a87f.png" width="300px" />
-
 # @khulnasoft-opensource/release
 
 > [**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config to publish to `npm` and/or `ghcr`.
